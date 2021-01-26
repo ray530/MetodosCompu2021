@@ -1,4 +1,4 @@
-# Métodos Computacionales - 2020-2
+# Métodos Computacionales - 2021-1
 
 ### Entornos de programación académica en línea:
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asegura4488/MetodosCompu2021/main)
