@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 
 
 	// Ajustar semilla del generador
-	srand48(6);
+	srand48(std::stoi(argv[2]));
 
 	double x = 0.;
 	double y = 0.;
