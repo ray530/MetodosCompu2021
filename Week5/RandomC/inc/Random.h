@@ -2,6 +2,8 @@
 #define Random_h
 
 #include <math.h>
+#include <cstdlib>
+#include <ctime>
 #include <iostream>
 
 class Random{
@@ -9,10 +11,11 @@ class Random{
 	public:
 		Random();
 		Random(long int seed_);
-		~Random();
+        	~Random();
 
 		void SetSeed(long int seed_);
 		double rand();
+		double rand(double A_, double B_);
 
 	private:
 

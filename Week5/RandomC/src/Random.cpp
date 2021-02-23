@@ -12,6 +12,10 @@ Random::Random(long int seed_){
 
 void Random::SetSeed(long int seed_){r = seed_;}
 
+double Random::rand(double A_, double B_){
+
+	return A_ + (B_-A_)*Random::rand();
+}
 
 double Random::rand(){
 
