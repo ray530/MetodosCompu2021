@@ -11,5 +11,8 @@ int main(){
 
 
 	std::cout << p1.GetX() << std::endl;
+
+	p1.GetXplusY();
+
 	return 0;
 }

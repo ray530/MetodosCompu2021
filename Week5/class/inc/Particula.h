@@ -14,6 +14,7 @@ class Particula{
          double PrintMass();
          void SetXY(double x_, double y_);
 	 double GetX();
+	 void GetXplusY();
 
 	private:
 

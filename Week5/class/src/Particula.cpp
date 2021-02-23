@@ -18,5 +18,9 @@ void Particula::SetXY(double x_, double y_){
 
 double Particula::GetX(){return x;}
 
+void Particula::GetXplusY(){
+	double z = x+y;
+	std::cout << z << std::endl;
+}
 
 Particula::~Particula(){}
